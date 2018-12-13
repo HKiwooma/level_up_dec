@@ -1,0 +1,61 @@
+
+.google_label{
+  padding: 10% 1% 0% 1%;
+
+  text-align: center;
+  text-size-adjust: 16px;
+  color: rgba(69, 169, 250, 0.795);
+}
+#orangered {
+  color: orangered;
+}
+#yellow {
+  color: yellow;
+}
+#green {
+  color: green;
+}
+
+
+.google_search {
+  float: center;
+  border: #ddd;
+}
+
+.google_search input[type=text] {
+  padding: 1% 10% 0% 1%;
+  font-size: 16px;
+  border-radius: 5%;
+  border-style: groove;
+
+}
+
+.google_search button{
+  float: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 1% 1% 0% 1%;
+  background: #ddd;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google_search button:hover{
+  background: #ccc;
+  border-style: groove;
+}
+@media screen and (max-width: 480px) {
+  .google_search {
+    float: none;
+  }
+  .google_search input[type=text], .google_search button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .google_search input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
